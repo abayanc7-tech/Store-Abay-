@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Abay Store — Kasir Modern</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">A</span><span>ABAY<span class="muted"> STORE</span><small>SMART CHECKOUT</small></span></a>
+<nav><a class="active" href="index.html">Beranda</a><a href="products.html">Produk</a><a href="history.html">Transaksi</a></nav>
+<a class="cart-link" href="checkout.html">Keranjang <b id="cart-count">0</b></a></header>
+<main>
+<section class="hero">
+ <div class="hero-copy"><span class="eyebrow">✦ BELANJA MUDAH, BAYAR CEPAT</span><h1>Semua kebutuhan,<br><em>satu tempat.</em></h1>
+ <p>Selamat datang di Abay Store. Pilih produk favoritmu, masukkan ke keranjang, lalu selesaikan pembayaran dengan QRIS.</p>
+ <div class="hero-actions"><a class="btn primary" href="products.html">Mulai belanja <span>↗</span></a><a class="text-link" href="checkout.html">Lihat keranjang →</a></div>
+ <div class="hero-stats"><div><strong>Praktis</strong><small>Checkout cepat</small></div><div><strong>QRIS</strong><small>Pembayaran mudah</small></div><div><strong>WhatsApp</strong><small>Kontak langsung</small></div></div></div>
+ <div class="hero-visual"><div class="visual-glow"></div><img src="assets/cashier-reference.jpg" alt="Ilustrasi perangkat kasir digital"><div class="floating-card"><span class="dot"></span> Sistem kasir online <b>Aktif</b></div></div>
+</section>
+<section class="benefits"><div><span>01</span><h3>Pilih produk</h3><p>Temukan produk dari katalog.</p></div><div><span>02</span><h3>Checkout mudah</h3><p>Total belanja dihitung otomatis.</p></div><div><span>03</span><h3>Bayar dengan QRIS</h3><p>Scan kode QR untuk membayar.</p></div></section>
+<section class="section-head"><div><span class="eyebrow">PILIHAN TOKO</span><h2>Produk pilihan</h2></div><a class="text-link" href="products.html">Lihat semua produk →</a></section>
+<div id="featured-products" class="product-grid"></div>
+<section class="contact-band"><div><span class="eyebrow">BUTUH BANTUAN?</span><h2>Owner siap membantu.</h2><p>Hubungi Abay Store melalui WhatsApp untuk pertanyaan atau konfirmasi pesanan.</p></div><a class="btn light" href="https://wa.me/6283840918386" target="_blank" rel="noopener">Chat WhatsApp ↗</a></section>
+</main><footer><span>© <span id="year"></span> Abay Store</span><span>Belanja nyaman • Pembayaran praktis</span></footer>
+<div id="toast" class="toast"></div><script src="app.js"></script><script>renderFeatured();</script>
+</body></html>
